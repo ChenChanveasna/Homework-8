@@ -9,7 +9,7 @@ class TestRemoveAllAfter(unittest.TestCase):
         self.assertEqual(remove_all_after([], 1), [])
         self.assertEqual(remove_all_after([1], 1), [1])
         
-        #list with different order of numbers
+        #list with different order of number
         self.assertEqual(remove_all_after([5, 2, 9, 4, 3, 1], 9), [5, 2, 9])
 
 
