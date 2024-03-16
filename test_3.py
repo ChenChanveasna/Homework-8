@@ -8,6 +8,9 @@ class TestRemoveAllAfter(unittest.TestCase):
         self.assertEqual(remove_all_after([1, 2, 3, 4, 5], 6), [1, 2, 3, 4, 5])
         self.assertEqual(remove_all_after([], 1), [])
         self.assertEqual(remove_all_after([1], 1), [1])
+        
+        #list with different order of numbers
+        self.assertEqual(remove_all_after([5, 2, 9, 4, 3, 1], 9), [5, 2, 9])
 
 
 if __name__ == '__main__':
