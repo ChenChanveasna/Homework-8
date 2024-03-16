@@ -1,2 +1,5 @@
 def replace_last(numbers):
-    pass
+    
+    result = numbers[-1:] + numbers[1:]
+    
+    return result
