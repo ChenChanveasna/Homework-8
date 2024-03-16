@@ -4,4 +4,4 @@ def index_power(numnbers, n):
         return res
     else:
         return -1
-
+    
